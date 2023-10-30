@@ -1,3 +1,14 @@
 Git repositorijos sukurimas
 git init - inicijuojam naujos repo sukurima
 git add . - pridedam visus failus ir aplankus i git stage
+git config user.name "Justas" - pasakom git, kas esam.
+git config user.email "justas.banio@gmail.com" - pasakom git, koks email.
+git congif user.email - patikrinu ar issaugojo email.
+git commit -m "Create header in layout" - versijos uzfiksavimas
+git log - parodo visas versijas
+
+
+/**Pakeiciau koda **
+git add .
+git commit -m "zinute"
+git push
