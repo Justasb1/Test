@@ -1,0 +1,13 @@
+tbody, td, tfoot, th, thead, tr {
+    border-color: red;
+}
+.table-striped > tbody > tr:nth-of-type(2n+1) > * {
+    background-color: green;
+}
+/* .btn:hover {                 Button redagavimas
+    color: blueviolet;
+}
+.btn-primary {
+    color: aqua;
+    background-color: azure;
+} */

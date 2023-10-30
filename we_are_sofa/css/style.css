@@ -1,0 +1,56 @@
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+img{
+    width: 100%;
+    margin: 1px auto;
+}
+header{
+    margin: 0px auto;
+    width: 50%;
+    padding: 20px;
+    font-size: 2em;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    letter-spacing: -2px;
+    word-spacing: 10px;
+
+}
+/* ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+    margin: 1px 20px;
+    font-family: 'AR One Sans', sans-serif;
+    margin-right: 10px;
+} */
+h3{
+    font-weight: bold;
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 1.75em;
+
+}
+#h2{
+    border-top: 3px double #000;
+    border-bottom: 3px double #000;
+    font-family: 'AR One Sans', sans-serif;
+    margin: 1px auto;
+    width: 90%;
+    text-align: center;
+}
+.fa-angles-right{
+    font-size: 0.6em;
+    color: gray;
+    padding: 5px;
+}
+footer{
+    text-align: center;
+    color: grey;
+}
+.design{
+    
+}

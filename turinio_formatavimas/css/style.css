@@ -1,0 +1,41 @@
+.container{
+    background-color: #eee;
+    width: 80%;
+    height: 500px;
+    margin: 30px auto;  /* auto=nesicentruos jei plotis bus 100%,  */ /* veikia isoreje */
+    padding: 20px; /* veikia viduje atitraukia turini */
+    border: 1px solid #000;  /* vietoje solid galima naudoti - dotted dashed */
+    
+    /* margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+    margin-left: 15px; */
+    /* margin: 30px 40px 25px 15px;  top, right, bottom, left */
+    /* margin: 25px;   is visu pusiu 25px bus */
+    /* margin: 30px 20px;  virsus+apacia=30px , desine+kaire=20px */
+    /* margin-top: -80px; */
+
+}
+section a{
+    display: inline-block; /* blokai atvaizduojami eilute */
+
+}
+
+/* Navigation */
+nav{
+    background-color: #dd88ee ;
+}
+nav li{
+
+    list-style: none;
+    display: inline-block;
+    background-color: #dd88ee;
+    padding: 5px;
+}
+nav li:hover{
+    background-color: azure;
+}
+nav li a{
+    text-decoration: none;
+    color: #000;
+}

@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;  /* Neleidzia padding plesti bloko */
+}
+.container{
+    background-color: #eee;
+    width: 80%;
+    margin:0 auto;
+}
+
+/* Header */
+
+img{
+    width: 20%;
+}
+
+header{
+    height: 50px;
+    background-color: #dd66ff;
+    padding: 10px;
+}
+
+header .logo{
+    width: 500px;
+    margin:0 auto;
+}
+
+/* Navigation */
+
+nav{
+    background-color: #ddaa55;
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    width: 200px;
+    background-color: #5c11b1;
+    padding: 5px;
+}
+
+nav li a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+/* Wrapper */
+main,aside{
+    float: left;
+    padding: 5%;
+}
+
+main{
+    width: 60%;
+    background-color: lightgrey;
+}
+
+main article{
+    width: 80%;
+    float: left;
+}
+
+aside{
+    width: 40%;
+    background-color: #ffddee;
+}
+
+footer{
+    background-color: #000;
+    padding: 0%;
+    clear: both;
+}
+
+footer p{
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,3 @@
+Git repositorijos sukurimas
+git init - inicijuojam naujos repo sukurima
+git add . - pridedam visus failus ir aplankus i git stage

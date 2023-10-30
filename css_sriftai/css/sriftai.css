@@ -1,0 +1,175 @@
+section{
+    background-color: #e1cccc;
+}
+h1,h2{
+    text-transform: uppercase;
+text-align: center;
+}
+h1{
+    color: rgb(105,24,56);
+    font-size: 3em;
+    font-family: "Courier New" , Courier, sans-serif;
+    font-style: italic;  
+    text-decoration: underline;
+}
+h2{
+    color: blue;
+    font-size: 2.5em;
+    font-family: "Open sans", sans-serif;
+    font-style: italic;
+}
+article p{ /* Porastes font pakeitimas */
+    font-size: 1.2em;
+    font-family: "Noto sans",sans-serif;
+    text-align: justify;
+    line-height: 2;
+}
+ article a{  /* Hyperlink font pakeitimas */
+    text-decoration: none;
+    color: aqua;
+    font-size: 1em;
+    font-family: "Dela Gothic One", sans-serif;
+}
+article a:hover{
+    text-decoration: underline;
+}
+
+.fa-user-secret{ /* Ikonos redagavimas */
+    color: blue;
+    padding: 30px;
+    font-size: 5em;
+}
+
+.fa-bug{
+    color: blue;
+    padding: 30px;
+    font-size: 5em;
+}
+
+.fa-mug-saucer{
+    color: red;
+}
+
+.fa-cube{
+    color: violet;
+}
+
+.fa-file-lines{
+    color: brown;
+}
+
+.fa-gears{
+    color: darkcyan;
+}
+/* Sukurti sarasa kuri sudarytu 10 elemntu,
+Kiekvienas saraso elmentas turi tureti skirtinga google srifta ir srifto splava. */
+
+#Sriftas1 h2{
+    color: blueviolet;
+}
+#Sriftas1 p{
+    color: darkkhaki;
+    font-family: "Exo 2";
+}
+#Sriftas1 a{
+    color: red
+}
+
+#Sriftas2 h2{
+    color: blueviolet;
+}
+#Sriftas2 p{
+    color: greenyellow;
+    font-family: "Libre Franklin", sans-serif;
+}
+#Sriftas2 a{
+    color: red
+}
+
+#Sriftas3 h2{
+    color: blueviolet;
+}
+#Sriftas3 p{
+    color: violet;
+    font-family: "Sedwick Ave Display", sans-serif;
+}
+#Sriftas3 a{
+    color: red
+}
+
+#Sriftas4 h2{
+    color: blueviolet;
+}
+#Sriftas4 p{
+    color: blue;
+    font-family: "Mulish", sans-serif;
+}
+#Sriftas4 a{
+    color: red
+}
+
+#Sriftas5 h2{
+    color: blueviolet;
+}
+#Sriftas5 p{
+    color: forestgreen;
+    font-family: "Noto Serif Nyiakeng Puachue Hmong" sans-serif;
+}
+#Sriftas5 a{
+    color: red
+}
+
+#Sriftas6 h2{
+    color: blueviolet;
+}
+#Sriftas6 p{
+    color: grey;
+    font-family: "Playfair Display";
+}
+#Sriftas6 a{
+    color: red
+}
+
+#Sriftas7 h2{
+    color: blueviolet;
+}
+#Sriftas7 p{
+    color: goldenrod;
+    font-family: "Mulish";
+}
+#Sriftas7 a{
+    color: red
+}
+
+#Sriftas8 h2{
+    color: blueviolet;
+}
+#Sriftas8 p{
+    color: cornflowerblue;
+    font-family: "Inter" sans-serif;
+}
+#Sriftas8 a{
+    color: red
+}
+
+#Sriftas9 h2{
+    color: blueviolet;
+}
+#Sriftas9 p{
+    color: darkmagenta;
+    font-family: "Montserrat" sans-serif;
+}
+#Sriftas9 a{
+    color: red
+}
+
+#Sriftas10 h2{
+    color: blueviolet;
+}
+#Sriftas10 p{
+    color: chocolate;
+    font-family: "Roboto" sans-serif;
+}
+#Sriftas10 a{
+    color: red
+}

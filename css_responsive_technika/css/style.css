@@ -1,0 +1,28 @@
+main{
+    display: flex; /*flex-rection:row;*/
+}
+main article{
+    background-color: #ddee44;
+    margin: 10px;
+    width: 20%;
+}
+main .content{
+    background-color: #aaff11;
+    flex-grow: 2;
+    padding: 20px;
+}
+ 
+main aside{
+    background-color: #aaff88;
+    padding:10px;
+}
+@media  (max-width:768px) {
+    main{
+        flex-direction: column;
+    }
+ 
+    main article{  
+        width: 100%;
+        margin:5px;
+    }
+}

@@ -1,0 +1,31 @@
+/* section{
+    background: #eee url(../fonas/mazas_fonas.jpg) no-repeat;
+    /* repeat-x; kartoja per x asi
+    repeat-y; kartoja per y asi 
+    background-size: cover; visa paveiksleli naudoja
+}*/
+
+/* section{
+    background: radial-gradient(#ddff, #ffad);
+    linear-gradient;
+} */
+
+/* section{
+    background: #eee url(../fonas/fonas.jpg); 
+    background-size: cover;
+}
+
+section article{
+    background-color: #eee;
+    margin: 10px;
+    opacity: 0.5;   /* 1=100% nepermatomas 0.5=50% permatomas
+}
+ */
+ th,td{
+    border: 1px solid #000;
+ }
+
+ table{
+    border-collapse: collapse;
+    width: 100%;
+ }

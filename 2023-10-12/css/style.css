@@ -1,0 +1,66 @@
+/* Header */
+header{
+    height: 100px;
+    background-color: #ddff22;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+header .logo{
+    width: 200px;
+
+}
+
+ header .logo img{
+    max-width: 100px;     /*  <---SVARBU!!! */
+ }
+
+ /* Navigation */
+ 
+ nav ul{
+    display: flex;
+    padding: 0;
+ }
+
+ nav ul li{
+    list-style: none;
+    padding: 5px;
+    background-color: #ee8833;
+    margin: 5px;
+    flex-grow: 1;         /* <---Svarbu */
+    text-align: center;
+ }
+
+ nav ul li a{
+    color: #fff;
+    text-decoration: none;
+ }
+ nav li:hover{
+    background-color: #aaffdd;
+ }
+
+ /* Content */
+
+ main{
+    display: flex;
+    background-color: #eedd22;
+}
+
+main .content{
+    background-color: #bb55dd;
+    flex-grow: 2;
+    padding: 20px;
+
+}
+
+main aside{
+    background-color: #ccdd22;
+    padding: 10px;
+}
+
+footer{
+    background-color: #ff11dd;
+    text-align: center;
+}
+

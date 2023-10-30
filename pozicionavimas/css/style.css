@@ -1,0 +1,55 @@
+.container{
+    background-color: #eee;
+    width: 80%;
+    height: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+.container div{
+    background-color: red;
+    position:absolute
+    
+}
+.container div h2{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.container > div:nth-child(1){
+    background-color: bisque;
+    top: 0;
+    left: 0;
+}
+.container > div:nth-child(2){
+    background-color: red;
+    top: 0;
+    right: 0;
+}
+.container > div:nth-child(3){
+    background-color: rebeccapurple;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+}
+.container > div:nth-child(4){
+    background-color: greenyellow;
+    bottom: 0;
+    right: 0;
+}
+.container > div:nth-child(5){
+    background-color: grey;
+    top: 50%;
+
+}
+.container > div:nth-child(6){
+    background-color: goldenrod;
+}
+.container > div:nth-child(7){
+    background-color: lightblue;
+}
+.container > div:nth-child(8){
+    background-color: lightsalmon;
+}

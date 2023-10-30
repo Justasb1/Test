@@ -1,0 +1,75 @@
+article{ /*Elemento selektorius*/
+    color:green;
+    background-color:black;
+}
+*{ /*Taiko visiems elementams*/
+    background-color: aqua;
+}
+
+.vip{ /*Klases selektorius*/
+    background-color: tomato;
+}
+
+#super { /*ID selektorius*/
+    background-color:blueviolet;
+}
+
+/*
+
+.links a[href="https://kitm.lt"]{
+    background-color: red;   
+}
+
+.links a[href="https://delfi.lt"]{
+    background-color:greenyellow;   
+}
+
+.links a[href="https://15min.lt"]{
+    background-color:burlywood;   
+}
+
+.links a[href="https://Lrytas.lt"]{
+    background-color:goldenrod;   
+}
+
+.documents a[href$=".docx"]{
+    background-color:ghostwhite;
+}
+
+.links a:hover{ /*Pseudo klase*/ /*
+    background-color: black;
+    color: white;
+}
+*/
+
+.links ul li:first-child{ /*Taikom pirmam child elemntui*/
+    background-color: green;
+}
+
+.links ul li:last-child{ /*Taikom paskutiniam child elemntui*/
+    background-color: blue;
+}
+
+.documents ul li:nth-child(2n+1){ /*Kas antra prinkti pradedant nuo trecio */
+    background-color: tomato;
+}
+
+h1,h2{
+    color: green;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+
+.products ul li{
+    color: green;
+}
+
+.products > ul > li > ul > li{
+    color: red;
+}

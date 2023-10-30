@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;  /* Neleidzia padding plesti bloko */
+}
+.container{
+    width: 100%;
+    margin:0 auto;
+    background-color: aliceblue;
+    height: 300px;
+    padding: 20px;
+    border-bottom: 2px solid #000;
+
+}
+nav li{
+    display: inline-block;
+    width: 200px;
+    padding: 5px;
+    padding: 10px;
+    height: 15px;
+
+}
+.logo{
+    width: 500px;
+    margin: 0 left;
+    float: left;
+    
+}
+#info{
+    float: right;
+}
+.main ul{
+
+}
+.main h1{
+    width: 100;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-bottom: 2px solid #000;
+}
+.main{
+    background-color: aliceblue;
+}
+.main img{
+    width: 400px;
+}
+#nav_bar{
+    display: inline-block;
+}
