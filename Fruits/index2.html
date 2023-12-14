@@ -9,16 +9,48 @@
 </head>
 <body>
     <main class="container">
-        <h2>Filmo paieska</h2>
         <form>
-            <div class="form-group m-2">
-                <input type="text" class="form-control" placeholder="Filmo pavadinimas">
-                <div class="text-center">
-                    
-                    <button type="button" class="btn rounded-5 m-5">Get started</button>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-lg"></span>
+                </div>
+                <input type="text" class="form-control"  aria-describedby="inputGroup-sizing-sm">
+              </div>
+            <div class="text-center">
+                <button type="button submit" class="btn rounded-5 m-5">Get started</button>
+            </div>
         </form>
     </main>
+    <section class="container">
+        <table class="table">
+            <tr>
+                <th>Name</th>
+                <th>Id</th>
+                <th>Family</th>
+                <th>Order</th>
+                <th>Genus</th>
+                <th>Nutritions</th>
+                <th>Fat</th>
+                <th>Sugar</th>
+                <th>Carbohydrates</th>
+                <th>Protein</th>
+            </tr>
+            <tr>
+                <td class="name"></td>
+                <td class="id"></td>
+                <td class="family"></td>
+                <td class="order"></td>
+                <td class="genus"></td>
+                <td class="nutritions"></td>
+                <td class="calories"></td>
+                <td class="fat"></td>
+                <td class="sugar"></td>
+                <td class="carbohydrates"></td>
+                <td class="protein"></td>
+            </tr>
+        </table>
+    </section>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/app2.js"></script>
 </body>
 </html>
