@@ -1,0 +1,25 @@
+.container{
+    /* background-color: orange linear-gradient(to bottom, lightyellow, gold); */
+    background: orange linear-gradient(45deg, #f6d992 ,   	#f6a192);
+    /* height: 300px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+.carousel{
+   background-color: white;
+}
+.carousel-caption {
+    position: absolute;
+    left: auto;
+    right: auto;
+    width: 50%;
+    height: 100%;
+    opacity: 0.8;
+    bottom:0;
+    right:0;
+}
